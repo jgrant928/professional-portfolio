@@ -7,9 +7,9 @@
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 15px;
     line-height: 150%;
-    color: #333;
+    color: rgb(0, 0, 0);
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 
 body {
     font-family: "Arial", sans-serif;
-    background: #f5f5f5;
+    background: white;
 }
 
 /* header selectors */
@@ -91,9 +91,26 @@ header nav ul li a {
 }
 
 .section-class p {
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
+    width: 75%;
 }
+
+/* h2 styling */
+
+.header-class {
+    padding-left: 10px;
+}
+
+/* work styling */
+.work-projects
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 150px;
+}
+
 
 
 
