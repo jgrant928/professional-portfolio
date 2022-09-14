@@ -71,6 +71,8 @@ header nav ul li a {
     padding: 10px;
 }
 
+/* banner styling */
+
 .banner {
     height: 400px;
     width: 100%;
@@ -80,5 +82,19 @@ header nav ul li a {
     background-position: center;
     background-color: black;
 }
+
+/* section styling */
+
+.section-class {
+    display: flex;
+    width: 100%;
+}
+
+.section-class p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
 
 
