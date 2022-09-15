@@ -118,7 +118,7 @@ header nav ul li a {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     align-items: space-between;
-    margin: 50px;
+    margin: auto;
     align-content: center;
     
 }
@@ -130,6 +130,7 @@ header nav ul li a {
     align-items: space-between;
     justify-content: center;
     gap: 10px;
+    margin: auto;
 }
 
 /* footer styling */
@@ -139,4 +140,11 @@ footer {
     padding: 10px 0;
     border-top: 1px solid black#ddd;
     height: 100px;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    color: #333;
 }
