@@ -87,11 +87,12 @@ header nav ul li a {
 
 .section-class {
     width: 100%;
+    display:flex;
 }
 
 .section-class p {
     text-align: left;
-    margin: auto;
+    margin: 0;
     width: 75%;
 }
 
@@ -100,7 +101,7 @@ header nav ul li a {
 .header-class {
     padding-left: 10px;
     padding-right: 10px;
-    background-color: aqua;
+    margin-bottom: 20px;
 }
 
 
@@ -116,17 +117,19 @@ header nav ul li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    align-items: center;
-    margin: 20px 20px;
+    align-items: space-between;
+    margin: 50px;
+    align-content: center;
     
 }
 
 /* contact styling */
-
-.contact-info {
+#contact-section {
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    align-items: space-between;
+    justify-content: center;
+    gap: 10px;
 }
 
 /* footer styling */
