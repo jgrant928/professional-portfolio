@@ -270,6 +270,11 @@ body {
         height: 400px;
     }
 
+.work-projects .top-image img {
+    width: 600px;
+    height: 400px;
+}
+
 /* contact styling */
 
 
@@ -291,5 +296,7 @@ body {
         width: 100%
 
     }
-
+    .work-projects .top-image img {
+        width: 100%;
+    }
 }
