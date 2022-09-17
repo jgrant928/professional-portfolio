@@ -21,6 +21,7 @@ a {
 body {
     font-family: "Arial", sans-serif;
     background: white;
+    overflow-x: hidden;
 }
 
 /* header selectors */
@@ -75,9 +76,9 @@ header nav ul li a {
 
 .banner {
     height: 400px;
-    width: 100%;
+    width:100%;
     margin-bottom: 25px;
-    background-image: url("tbd");
+    background-image: url("/Users/johngrant/Bootcamp/professional-portfolio/assets/images/IMG_2855.JPG");
     background-size: cover;
     background-position: center;
     background-color: black;
@@ -88,11 +89,12 @@ header nav ul li a {
 .section-class {
     width: 100%;
     display:flex;
+    padding: 20px 0;
 }
 
 .section-class p {
     text-align: left;
-    margin: 0;
+    margin: auto;
     width: 75%;
 }
 
@@ -101,7 +103,7 @@ header nav ul li a {
 .header-class {
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 
@@ -109,9 +111,14 @@ header nav ul li a {
 
 #about-me {
     margin: auto;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 /* work styling */
+
+
 .work-projects
 {
     display: grid;
@@ -120,17 +127,34 @@ header nav ul li a {
     align-items: space-between;
     margin: auto;
     align-content: center;
-    
+}
+
+.work-projects img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-block {
+    position: relative;
+    bottom: 20px;
+    background-color: black;
+    color: white;
 }
 
 /* contact styling */
 #contact-section {
     display: flex;
     flex-direction: row;
-    align-items: space-between;
     justify-content: center;
-    gap: 10px;
     margin: auto;
+}
+
+#contact-section p {
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    width: 70%;
 }
 
 /* footer styling */
