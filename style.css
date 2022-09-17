@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
 p {
     font-size: 15px;
     line-height: 150%;
@@ -133,6 +139,17 @@ header nav ul li a {
     width: 600px;
     height: 400px;
     object-fit: cover;
+}
+
+/* top image take up all of top row without a gap */
+
+.work-projects .top-image  {
+    grid-column: 1 / -1;
+}
+
+.work-projects .top-image img {
+    width: 1200px;
+    height: 500px;
 }
 
 .text-block {
