@@ -189,12 +189,10 @@ header h1 {
     text-align: center;
 }
 
-/* center nav */
 header nav {
     text-align: center;
 }
 
-/* stack nav links and h1 in center of page */
 header nav ul {
     flex-direction: column;
     align-items: center;
@@ -205,14 +203,25 @@ header nav ul {
     text-align: center;
 }
 
+/* main styling */
+
 main {
    width: 100%;
 }
 
+/* body styling */
+
+body {
+    width: 100%;
+}
+
+/* banner styling */
 .banner {
     height: 300px;
     width: 100%;
 }
+
+/* about me styling */
 
 #about-me {
         display: flex;
@@ -221,14 +230,14 @@ main {
         flex-wrap: wrap;
     }
 
+/* work styling */
+
 #my-work {
         display: flex;
         flex-direction: column;
         text-align: center;
         flex-wrap: wrap;
     }
-
-/* change .work-projects to one column */
 
 .work-projects {
         display: grid;
@@ -244,9 +253,7 @@ main {
         height: 400px;
     }
 
-/* change .contact-section to one column */
-
-/* center h2 in contact section */
+/* contact styling */
 
 
 
@@ -256,7 +263,16 @@ main {
         justify-content: center;
         margin: auto;
     }
-    
+        
+}
 
-    
+/* MEDIA QUERY FOR MOBILE */
+
+@media screen and (max-width: 500px) {
+
+.work-projects img {
+        width: 100%
+
+    }
+
 }
