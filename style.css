@@ -75,7 +75,7 @@ header nav ul li a {
 /* banner styling */
 
 .banner {
-    height: 300px;
+    height: 400px;
     width:100%;
     margin-bottom: 25px;
     background-image: url("/Users/johngrant/Bootcamp/professional-portfolio/assets/images/IMG_2855.JPG");
@@ -89,6 +89,7 @@ header nav ul li a {
 .section-class {
     width: 100%;
     display:flex;
+    padding: 20px 0;
 }
 
 .section-class p {
@@ -112,6 +113,7 @@ header nav ul li a {
     margin: auto;
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 /* work styling */
@@ -128,8 +130,8 @@ header nav ul li a {
 }
 
 .work-projects img {
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -149,6 +151,7 @@ header nav ul li a {
 }
 
 #contact-section p {
+    flex-wrap: wrap;
     text-align: center;
     margin: auto;
     width: 70%;
