@@ -122,6 +122,16 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
+#about-me img {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
 /* work styling */
 
 
@@ -148,7 +158,7 @@ header nav ul li a {
 }
 
 .work-projects .top-image img {
-    width: 1200px;
+    width: 1210px;
     height: 500px;
 }
 
