@@ -124,12 +124,18 @@ header nav ul li a {
 
 #about-me img {
     width: auto;
-    max-width: 300px;
+    max-width: 200px;
     height: auto;
-    max-height: 300px;
+    max-height: 200px;
     border-radius: 50%;
     margin: 10px;
 
+}
+
+#about-me p {
+    width: 75%;
+    margin: auto;
+    text-align: left;
 }
 
 /* work styling */
@@ -180,6 +186,7 @@ header nav ul li a {
 #contact-section p {
     flex-wrap: wrap;
     text-align: center;
+    justify-content: space-around;
     margin: auto;
     width: 70%;
 }
