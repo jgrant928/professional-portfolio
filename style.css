@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
 p {
     font-size: 15px;
     line-height: 150%;
@@ -22,12 +32,13 @@ body {
     font-family: "Arial", sans-serif;
     background: white;
     overflow-x: hidden;
+    height: 100vh;
 }
 
 /* header selectors */
 
 header {
-    background: rgb(165, 165, 165);
+    background: black;
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
     display: flex;
@@ -39,7 +50,7 @@ header {
 header h1 {
     font-size: 30px;
     font-weight: bold;
-    color: #333;
+    color: white;
     margin-left: 20px;
     text-align: center;
 }
@@ -67,7 +78,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: white;
     font-size: 15px;
     padding: 10px;
 }
@@ -83,6 +94,7 @@ header nav ul li a {
     background-position: center;
     background-color: black;
 }
+
 
 /* section styling */
 
@@ -116,6 +128,22 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
+#about-me img {
+    width: auto;
+    max-width: 200px;
+    height: auto;
+    max-height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+#about-me p {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+
 /* work styling */
 
 
@@ -133,6 +161,17 @@ header nav ul li a {
     width: 600px;
     height: 400px;
     object-fit: cover;
+}
+
+/* top image take up all of top row without a gap */
+
+.work-projects .top-image  {
+    grid-column: 1 / -1;
+}
+
+.work-projects .top-image img {
+    width: 1210px;
+    height: 500px;
 }
 
 .text-block {
@@ -153,6 +192,7 @@ header nav ul li a {
 #contact-section p {
     flex-wrap: wrap;
     text-align: center;
+    justify-content: space-around;
     margin: auto;
     width: 70%;
 }
@@ -160,7 +200,7 @@ header nav ul li a {
 /* footer styling */
 
 footer {
-    background-color: rgb(165, 165, 165);
+    background-color: black;
     padding: 10px 0;
     border-top: 1px solid black#ddd;
     height: 100px;
@@ -170,7 +210,7 @@ footer {
 footer p {
     text-align: center;
     font-size: 15px;
-    color: #333;
+    color: white;
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -253,6 +293,11 @@ body {
         height: 400px;
     }
 
+.work-projects .top-image img {
+    width: 600px;
+    height: 400px;
+}
+
 /* contact styling */
 
 
@@ -274,5 +319,7 @@ body {
         width: 100%
 
     }
-
+    .work-projects .top-image img {
+        width: 100%;
+    }
 }
